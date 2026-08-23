@@ -32,10 +32,10 @@ public:
         {
             return true;
         }
-        else if(a2 > x1 && b1 > y1 && a2 < x2 && b1 < y2)
-        {
-            return true;
-        }
+        // else if(a2 > x1 && b1 > y1 && a2 < x2 && b1 < y2)
+        // {
+        //     return true;
+        // }
         else if(x1 < a2 && x2 > a1 && y1 < b2 && y2 > b1)
         {
             return true;
